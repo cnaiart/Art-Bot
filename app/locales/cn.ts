@@ -311,10 +311,10 @@ const cn = {
 
     Access: {
       SaasStart: {
-        Title: "使用 NextChat AI",
+        Title: "使用 Art-bot Chat AI",
         Label: "（性价比最高的方案）",
         SubTitle:
-          "由 NextChat 官方维护, 零配置开箱即用，支持 OpenAI o1, GPT-4o, Claude-3.5 等最新大模型",
+          "由 Art-bot 官方维护, 零配置开箱即用，支持 OpenAI o1, GPT-4o, Claude-3.5 等最新大模型",
         ChatNow: "立刻对话",
       },
       AccessCode: {
@@ -554,7 +554,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
+    BotHello: "欢迎Art-Bot，有什么可以为您效劳的吗！",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,

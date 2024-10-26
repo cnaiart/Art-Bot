@@ -23,7 +23,6 @@ import {
   NARROW_SIDEBAR_WIDTH,
   Path,
   PLUGINS,
-  REPO_URL,
 } from "../constant";
 
 import { Link, useNavigate } from "react-router-dom";
@@ -230,8 +229,8 @@ export function SideBar(props: { className?: string }) {
       {...props}
     >
       <SideBarHeader
-        title="NextChat"
-        subTitle="Build your own AI assistant."
+        title="Art-Bot"
+        subTitle="CNAI-API.聊天机器人"
         logo={<ChatGptIcon />}
         shouldNarrow={shouldNarrow}
       >
@@ -306,7 +305,11 @@ export function SideBar(props: { className?: string }) {
               </Link>
             </div>
             <div className={styles["sidebar-action"]}>
-              <a href={REPO_URL} target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://api.cnai.art"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <IconButton
                   aria={Locale.Export.MessageFromChatGPT}
                   icon={<GithubIcon />}
